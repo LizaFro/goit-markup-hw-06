@@ -421,19 +421,20 @@
             </section>
         </div>
 
-        <div class="footer-subscribe">
+        <form class="footer-subscribe">
             <label class="subscribe-section">
                 <span class="subscribe-text">Подпишитесь на рассылку</span>
                 <span class="subscribe-email-input">
                     <input class="subscribe-form-input" type="email" name="user-email" placeholder="E-mail">
                 <div class="subscribe-button-svg">
-                    <button type="submit" class="subscribe-form-button">Подписаться</button>
-                    <svg class="subscribe-telegram-icon" width="24" height="24">
+                    <button type="submit" class="subscribe-form-button">Подписаться<svg class="subscribe-telegram-icon" width="24" height="24">
                         <use href="./images/icons.svg#icon-icon-send"></use>
-                    </svg>
+                        </svg>
+                    </button>
+                    
                 </div>
             </label>
-        </div>
+        </form>
     </div>
     </footer>
 
@@ -484,7 +485,7 @@
                 
                 </label>
 
-                <label class="contact-form-field">
+                <label class="contact-form-field-textarea">
                     <span class="contact-form-field-key">Комментарий</span>
                     <textarea class="contact-form-message" placeholder="Введите текст" name="user-message"></textarea>
                 </label>
